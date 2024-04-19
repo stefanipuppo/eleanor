@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Oranienbaum&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(/imagens/fundo1.png) no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+
+.texto {
+
+    text-align: left;
+    width: 100%;
+    margin: 6%;
+    padding-top: 60%;
+    
+
+
+    h1 {
+        letter-spacing: 25px;
+        font-family: "Oranienbaum", serif;
+        font-size: 50px;
+        font-weight: 400;
+        text-shadow: 0 0 1px black ;
+        margin-bottom: -3%;
+
+    }
+
+    h2 {
+        
+        font-size: 16px;
+        letter-spacing: 2.2px;
+        font-family: "Bodoni Moda", serif;
+        font-weight: 400;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.50);
+        width: 100%;
+        margin-top: auto;
+       
+        
+       
+
+    }
+}
+
+button.botao {
+    font-family: "Bodoni Moda", serif;
+    position: fixed;
+    left: 43%;
+    transform: translateX(-50%);
+    margin-top: 39%;
+    background-color: rgba(248, 248, 248, 0.345);;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 19px;
+    width: 50%;
+    height: 4.5%;
+    padding: 0;
+}
+
+p {  
+    display: contents;  
+    font-family: "Bodoni Moda", serif;
+       
+}
+
+img {
+    display: inline-flex;
+    margin-right: -8px;
+    
+}
+
+img.esquerdo {
+    height: 40px;
+    margin-right: 34%;
+}
+    
+img.direito {
+    min-width: 16px;
+    min-height: 6px;
+    
+}
+
+@media screen and (max-width: 600px) {
+
+    body {
+        background: url(/imagens/fundo1.png) no-repeat;
+        background-size: cover;
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width:601px) and (max-width: 1024px)  {
+    body {
+        background: url(/imagens/tablet.jpg) no-repeat;
+        background-size: cover;
+        overflow: hidden;
+      
+    }
+
+    .texto {
+        text-align: left;
+        width:58%;
+        margin: 6%;
+        padding-top: 61%;
+        
+    }
+
+    .texto h1 {
+        text-shadow: 0 0 1px #f8f8f8b7 ;
+    }
+    
+    button.botao {
+        font-family: "Bodoni Moda", serif;
+        position: fixed;
+        left: 43%;
+        transform: translateX(-50%);
+        margin-top: 39%;
+        background-color: rgba(248, 248, 248, 0.345);;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        border-radius: 19px;
+        width: 50%;
+        height: 4.5%;
+        padding: 0;
+    }
+    
+    p {  
+        display: contents;  
+        font-family: "Bodoni Moda", serif;
+           
+    }
+    
+}
+
+@media screen and (min-width: 1025px) {    
+    
+    body {
+    background: url(/imagens/desktop.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+}
