@@ -172,7 +172,7 @@ img {
 
     body {
     background: url(/imagens/desktop.jpg) no-repeat;
-    background-size: cover;
+    background-size: 120%;
     overflow: hidden;
     
     }

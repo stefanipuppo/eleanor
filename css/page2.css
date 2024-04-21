@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Oranienbaum&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#F6F2E6;
+    font-family: "Oranienbaum", serif;;
+    font-size: 26px;
+}
+
+.container_imagem {
+    display: flex;
+    justify-content: center;
+}
+
+
+.titulo {
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 10%;
+    align-items: center;
+}
+
+.container_navegacao {
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 5% 5%;  
+}
+
+.navegacao {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: none;
+    box-shadow: 0px 0px 2px 2px #dfd8c3;
+    border-radius: 25px;
+    width: 109px;
+    height: 229px;
+    padding-left: 15px;
+    
+}
+
+.interno {
+    display: flex;
+    border: none;
+    border-radius: 25%;
+    font-size: 20px;
+    width: 77px;
+    height: 103px;
+    background-color: #F3EBDE;
+    align-items: center;
+    padding-left: 5px;
+}
+
+
+.container_opcoes {
+    display: flex;
+    justify-content: space-around;
+        
+}
+
+.opcoes {
+    display: flex;
+    border: none;
+    box-shadow: 0px 0px 2px 2px #dfd8c3;
+    border-radius: 25px;
+    width: 75px;
+    height: 31px;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_cards {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.cards {
+    display: flex;
+    border: none;
+    border-radius: 25%;
+    font-size: 20px;
+    width: 77px;
+    height: 103px;
+    background-color: #F3EBDE;
+    align-items: center;
+    padding-left: 5px;
+}
