@@ -31,11 +31,39 @@ body {
     align-items: center;
     font-family: "Oranienbaum", serif;
 }
+.titulo_marca {
+    position: relative;
+}
+
+.titulo_marca h1 {
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 1.2; 
+    padding: 0; 
+    margin: 0;
+}
+
+.img_sobre_titulo {
+    position: absolute;
+    top: -11px;
+    left: 35%;
+    transform: translateX(-20%);
+    width: auto; 
+    height: auto; 
+    display: block;
+}
+
+img.profile_img {
+    display: flex;
+    border: none;
+    box-shadow: 0px 0px 2px 2px #a39875;
+    border-radius: 50%;
+}
 
 .container_navegacao {
     display: flex;
     justify-content: space-between;
-    padding: 2% 5% 5%;  
+    padding: 0% 5% 5%; 
 }
 
 .navegacao {
@@ -153,6 +181,7 @@ body {
 }
 
 .container_rodape {
+    position:relative ;
     display: flex;
     justify-content: space-between;
     border: none;
@@ -161,14 +190,13 @@ body {
     width: 50%;
     height: 37px;
     align-items: center;
-    background-color: #F6F2E6;
+    background-color: rgba(246, 242, 230, 0.8);
     margin-left: auto;
     margin-right: auto;
-    
+    top: -60px;
 }
 
 .rodape_icons {
     display: flex;
     align-items: flex-start;
-    position: relative;
 }
