@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Oranienbaum&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Lusitana:wght@400;700&family=Oranienbaum&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -8,21 +7,29 @@
 
 body {
     background-color:#F6F2E6;
-    font-family: "Oranienbaum", serif;;
     font-size: 26px;
 }
 
 .container_imagem {
     display: flex;
     justify-content: center;
+    padding-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+.img_cabecalho {
+    border: none;
+    border-radius: 87px 15px 15px 15px;
+
+}
 
 .titulo {
     display: flex;
     justify-content: space-between;
     padding: 0% 10%;
     align-items: center;
+    font-family: "Oranienbaum", serif;
 }
 
 .container_navegacao {
@@ -48,18 +55,22 @@ body {
     display: flex;
     border: none;
     border-radius: 25%;
+    font-family: "Lusitana", serif;
     font-size: 20px;
     width: 77px;
     height: 103px;
     background-color: #F3EBDE;
     align-items: center;
     padding-left: 5px;
+    padding-top: 30px;
 }
 
 
 .container_opcoes {
     display: flex;
     justify-content: space-around;
+    font-family: "Crimson Pro", serif;
+    padding-bottom: 2%;
         
 }
 
@@ -70,25 +81,94 @@ body {
     border-radius: 25px;
     width: 75px;
     height: 31px;
-    font-size: 15px;
+    font-size: 16px;
     align-items: center;
     justify-content: center;
+    color: #A99277;
 }
 
-.container_cards {
+.opcaoP {
+    color: black;
+}
+
+.container_navegacao {
     display: flex;
-    justify-content: center;
-    padding-top: 10px;
+    justify-content: space-between;
+    padding: 2% 5% 5%;  
 }
 
-.cards {
+.container_produtos { 
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding-top: 1%;
+    position: relative;
+   
+    
+}
+
+.produtos {
+    border-radius: 25px;
+    width: 109px;
+    height: 109px;
+    
+}
+.preco {
+    position: absolute;
+    border: none;
+    border-radius: 25px 0px 25px 0px;
+    background-color: rgba(243, 235, 221, 0.74);
+    font-family: "Crimson Pro", serif;
+    font-size: 16px;
+    width: 54px;
+    height: 30px;
+    text-align: center;
+    left: 0;
+    
+    
+}
+
+.indice_superior {
+    font-size: 12px;
+    font-family: "Crimson Pro", serif;
+}
+
+.container_nome_produtos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nome_produtos {
     display: flex;
     border: none;
-    border-radius: 25%;
-    font-size: 20px;
-    width: 77px;
-    height: 103px;
-    background-color: #F3EBDE;
+    box-shadow: 0px 0px 2px 2px #dfd8c3;
+    border-radius: 25px;
+    width: 107px;
+    height: 24px;
+    font-family: "Crimson Pro", serif;
+    font-size: 12px;
     align-items: center;
-    padding-left: 5px;
+    justify-content: center;
+    
+}
+
+.container_rodape {
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    box-shadow: 0px 0px 2px 2px #dfd8c3;
+    border-radius: 25px;
+    width: 50%;
+    height: 37px;
+    align-items: center;
+    background-color: #F6F2E6;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.rodape_icons {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
 }
