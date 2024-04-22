@@ -47,7 +47,7 @@ body {
 .img_sobre_titulo {
     position: absolute;
     top: -11px;
-    left: 35%;
+    left: 25%;
     transform: translateX(-20%);
     width: auto; 
     height: auto; 
