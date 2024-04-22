@@ -246,7 +246,7 @@ img.profile_img {
 
     .nome_produtos {
         width: 145px;
-        letter-spacing:px;
+        letter-spacing:1px;
     }
     
     .preco {
@@ -304,7 +304,7 @@ img.profile_img {
         }
         
         .container_rodape {
-            top: 40px;
+            top: 30px;
         }
     
         .interno {
@@ -318,4 +318,10 @@ img.profile_img {
         }
 
         
+}
+
+@media (min-width:1440px) {
+    .titulo {
+        padding: 0% 5%;
+    }
 }
