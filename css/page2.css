@@ -21,7 +21,6 @@ body {
 .img_cabecalho {
     border: none;
     border-radius: 87px 15px 15px 15px;
-
 }
 
 .titulo {
@@ -30,6 +29,8 @@ body {
     padding: 0% 10%;
     align-items: center;
     font-family: "Oranienbaum", serif;
+    letter-spacing: 5px;
+    
 }
 .titulo_marca {
     position: relative;
@@ -91,6 +92,7 @@ img.profile_img {
     align-items: center;
     padding-left: 5px;
     padding-top: 30px;
+    white-space: normal; 
 }
 
 
@@ -201,6 +203,20 @@ img.profile_img {
     align-items: flex-start;
 }
 
+@media (min-width: 601px) {
+    .navegacao {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        border: none;
+        box-shadow: 0px 0px 2px 2px #dfd8c3;
+        border-radius: 25px;
+        width: 109px;
+        height: 229px;
+        padding-left: 15px;
+        
+    }
+}
 @media (min-width: 601px) and  (max-width: 1024px) {
     .img_cabecalho  {
         display: none;
@@ -208,6 +224,7 @@ img.profile_img {
     
     .titulo {
         padding: 0% 5% 5% 5%;
+        letter-spacing:10px;
     }
 
     .navegacao{
@@ -218,6 +235,7 @@ img.profile_img {
 
     .opcoes {
         width: 150px;
+        letter-spacing:3px;
     }
 
     .produtos {
@@ -227,8 +245,14 @@ img.profile_img {
 
     .nome_produtos {
         width: 145px;
+        letter-spacing:px;
     }
     
+    .preco {
+        width: 80px;
+        
+    }
+
     .container_rodape {
         top: 20px;
     }
@@ -236,4 +260,61 @@ img.profile_img {
     .interno {
         width: 85px;
     } 
+}
+
+@media (min-width:1025px) {
+    .img_cabecalho  {
+        display: none;
+    }
+    
+    .container_imagem {
+        padding-top: 2%;
+        
+    };
+    
+    .titulo {
+        padding: 0% 3%;
+        letter-spacing: 25px;
+        text-align: end;
+    }
+
+    .navegacao {
+        width: 288px;
+        height: 84px;
+        
+        
+    }
+    
+        .opcoes {
+            width: 150px;
+        }
+    
+        .produtos {
+            width: 180px;
+            height: 150px;
+        }
+    
+        .nome_produtos {
+            width: 160px;
+        }
+
+        .preco {
+            width: 100px;
+        }
+        
+        .container_rodape {
+            top: 40px;
+        }
+    
+        .interno {
+            width: 260px;
+            height: 60px;
+            border-radius: 25px;
+            text-align: center;
+            padding-top: 1px;
+            padding-left: 36%;
+
+        }
+
+        
 }
