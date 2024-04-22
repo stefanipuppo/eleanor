@@ -324,4 +324,31 @@ img.profile_img {
     .titulo {
         padding: 0% 5%;
     }
+
+    .container_navegacao {
+        display: flex;
+        justify-content: space-between;
+        padding: 8% 8% 2%;
+    }
+
+    .container_opcoes {
+        display: flex;
+        justify-content: space-between;
+        font-family: "Crimson Pro", serif;
+        padding: 1% 8% 2%;
+        letter-spacing: 5px;
+    }
+
+
+    .opcoes {
+        width: 250px;
+    }
+
+    .nome_produtos {
+        letter-spacing: 2px;
+    }
+
+    .container_rodape {
+        width: 35%;
+    }
 }
