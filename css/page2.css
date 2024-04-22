@@ -101,6 +101,7 @@ img.profile_img {
     justify-content: space-around;
     font-family: "Crimson Pro", serif;
     padding-bottom: 2%;
+    letter-spacing: 1px;
         
 }
 
@@ -279,7 +280,7 @@ img.profile_img {
     }
 
     .navegacao {
-        width: 288px;
+        width: 350px;
         height: 84px;
         
         
@@ -307,7 +308,7 @@ img.profile_img {
         }
     
         .interno {
-            width: 260px;
+            width: 320px;
             height: 60px;
             border-radius: 25px;
             text-align: center;
